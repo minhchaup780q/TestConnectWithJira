@@ -6,4 +6,12 @@ public class Student {
     public Student(String mssv) {
         this.mssv = mssv;
     }
+
+    public String getMssv() {
+        return mssv;
+    }
+
+    public void setMssv(String mssv) {
+        this.mssv = mssv;
+    }
 }

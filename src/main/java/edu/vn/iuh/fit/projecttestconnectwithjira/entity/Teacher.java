@@ -6,4 +6,12 @@ public class Teacher {
     public Teacher(String msgv) {
         this.msgv = msgv;
     }
+
+    public String getMsgv() {
+        return msgv;
+    }
+
+    public void setMsgv(String msgv) {
+        this.msgv = msgv;
+    }
 }
